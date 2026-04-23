@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" font-family="'Helvetica Neue','Noto Sans TC','PingFang TC',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="dot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="400" fill="url(#bg)"/>
+
+  <!-- Subtle dot grid texture -->
+  <g fill="#FFFFFF" fill-opacity="0.03">
+    <circle cx="40" cy="40" r="1.5"/><circle cx="120" cy="40" r="1.5"/><circle cx="200" cy="40" r="1.5"/>
+    <circle cx="40" cy="120" r="1.5"/><circle cx="120" cy="120" r="1.5"/><circle cx="200" cy="120" r="1.5"/>
+    <circle cx="40" cy="200" r="1.5"/><circle cx="120" cy="200" r="1.5"/><circle cx="200" cy="200" r="1.5"/>
+    <circle cx="40" cy="280" r="1.5"/><circle cx="120" cy="280" r="1.5"/><circle cx="200" cy="280" r="1.5"/>
+    <circle cx="40" cy="360" r="1.5"/><circle cx="120" cy="360" r="1.5"/><circle cx="200" cy="360" r="1.5"/>
+  </g>
+
+  <!-- Left: Title block -->
+  <g transform="translate(60, 100)">
+    <!-- Eyebrow tag -->
+    <rect x="0" y="0" width="200" height="28" rx="14" fill="#FBBF24" fill-opacity="0.12" stroke="#FBBF24" stroke-opacity="0.3"/>
+    <text x="100" y="19" font-size="13" font-weight="600" fill="#FBBF24" text-anchor="middle" letter-spacing="1">ONE-PERSON AGENCY</text>
+
+    <!-- Main title -->
+    <text x="0" y="100" font-size="68" font-weight="800" fill="url(#titleGrad)" letter-spacing="-1">one-person-agency-ai</text>
+
+    <!-- Tagline -->
+    <text x="0" y="150" font-size="26" font-weight="500" fill="#E2E8F0">14 AI 同事，把一人公司變成完整代理商</text>
+    <text x="0" y="186" font-size="18" font-weight="400" fill="#94A3B8">14 AI colleagues for the solo marketer · 廣告 · 內容 · 數據 · 工程 · 設計</text>
+
+    <!-- Badges row -->
+    <g transform="translate(0, 220)">
+      <rect x="0" y="0" width="88" height="30" rx="15" fill="#334155"/>
+      <text x="44" y="20" font-size="13" font-weight="600" fill="#F1F5F9" text-anchor="middle">MIT</text>
+
+      <rect x="100" y="0" width="110" height="30" rx="15" fill="#334155"/>
+      <text x="155" y="20" font-size="13" font-weight="600" fill="#F1F5F9" text-anchor="middle">14 Roles</text>
+
+      <rect x="222" y="0" width="130" height="30" rx="15" fill="#334155"/>
+      <text x="287" y="20" font-size="13" font-weight="600" fill="#F1F5F9" text-anchor="middle">繁體中文</text>
+
+      <rect x="364" y="0" width="150" height="30" rx="15" fill="#FBBF24"/>
+      <text x="439" y="20" font-size="13" font-weight="700" fill="#0F172A" text-anchor="middle">/team auto-dispatch</text>
+    </g>
+  </g>
+
+  <!-- Right: 14 avatar grid -->
+  <g transform="translate(780, 70)">
+    <!-- Row 1 - Strategy & Creative -->
+    <g>
+      <circle cx="40" cy="40" r="34" fill="#6366F1"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">K</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Kevin</text>
+    </g>
+    <g transform="translate(90, 0)">
+      <circle cx="40" cy="40" r="34" fill="#8B5CF6"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">P</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Peter</text>
+    </g>
+    <g transform="translate(180, 0)">
+      <circle cx="40" cy="40" r="34" fill="#EC4899"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">W</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Winnie</text>
+    </g>
+    <g transform="translate(270, 0)">
+      <circle cx="40" cy="40" r="34" fill="#F43F5E"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">O</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Olivia</text>
+    </g>
+    <g transform="translate(360, 0)">
+      <circle cx="40" cy="40" r="34" fill="#F97316"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">I</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Iris</text>
+    </g>
+
+    <!-- Row 2 - Growth & Data -->
+    <g transform="translate(0, 115)">
+      <circle cx="40" cy="40" r="34" fill="#EAB308"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">H</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Hunter</text>
+    </g>
+    <g transform="translate(90, 115)">
+      <circle cx="40" cy="40" r="34" fill="#10B981"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">M</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Mia</text>
+    </g>
+    <g transform="translate(180, 115)">
+      <circle cx="40" cy="40" r="34" fill="#14B8A6"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">C</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Carl</text>
+    </g>
+    <g transform="translate(270, 115)">
+      <circle cx="40" cy="40" r="34" fill="#06B6D4"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Ada</text>
+    </g>
+    <g transform="translate(360, 115)">
+      <circle cx="40" cy="40" r="34" fill="#0EA5E9"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">K</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Ken</text>
+    </g>
+
+    <!-- Row 3 - Engineering & Ops -->
+    <g transform="translate(45, 230)">
+      <circle cx="40" cy="40" r="34" fill="#3B82F6"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">G</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Gemma</text>
+    </g>
+    <g transform="translate(135, 230)">
+      <circle cx="40" cy="40" r="34" fill="#6366F1"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Q</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Quincy</text>
+    </g>
+    <g transform="translate(225, 230)">
+      <circle cx="40" cy="40" r="34" fill="#7C3AED"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Nina</text>
+    </g>
+    <g transform="translate(315, 230)">
+      <circle cx="40" cy="40" r="34" fill="#A855F7"/>
+      <text x="40" y="49" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Z</text>
+      <text x="40" y="92" font-size="11" fill="#CBD5E1" text-anchor="middle">Zoe</text>
+    </g>
+  </g>
+
+  <!-- Bottom author line -->
+  <text x="640" y="380" font-size="13" fill="#64748B" text-anchor="middle">by @chia.hsun301 · MIT Licensed · Made in Taiwan</text>
+</svg>
